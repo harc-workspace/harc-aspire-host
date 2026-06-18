@@ -17,7 +17,6 @@ var gateway = builder.AddProject<Projects.harc_gateway>("gateway")
 // "frontend-repo" kısmını kendi React projenizin ana klasör adıyla değiştirin
 builder.AddExecutable("frontend", "bun", "../../harc-fe", "dev")
        .WithReference(gateway)
-       .WithEnvironment("VITE_GOOGLE_CLIENT_ID", "385195035869-pm89umo5gqf4uch917pe3uh8lvqnie5p.apps.googleusercontent.com")
        .WithEnvironment("VITE_GATEWAY_BASE_URL", gateway.GetEndpoint("https"));
 
        
