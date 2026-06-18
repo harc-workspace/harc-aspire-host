@@ -1,0 +1,21 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.4.5">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\harc-api\harc-api.csproj" />
+    <ProjectReference Include="..\..\harc-gateway\harc-gateway.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.NodeJs" Version="9.5.2" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.4.5" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>1ea41661-263d-4807-8065-a49f34c72aa9</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

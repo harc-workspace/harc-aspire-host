@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Harc.AppHost/Harc.AppHost.csproj" />
+  <Project Path="Harc.ServiceDefaults/Harc.ServiceDefaults.csproj" />
+</Solution>
