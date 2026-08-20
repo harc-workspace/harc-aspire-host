@@ -6,4 +6,5 @@
 - Public API veya veri sözleşmesi değişikliklerini açıkça belirt.
 - Error handling ve validation davranışını mevcut projeyle uyumlu tut.
 - Yeni davranış için uygun test ekle veya test altyapısı yoksa bunu raporla.
+- Public davranış veya kullanıcıya görünen sözleşme değişirse ilgili README/API dokümantasyonunu aynı değişiklikte güncelle.
 - Kullanılmayan kod, debug çıktısı ve geçici workaround bırakma.
